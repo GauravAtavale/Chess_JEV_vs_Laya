@@ -239,6 +239,6 @@ Each arena run is saved to `arena_runs/<date-time>_<matchup>/` (console log, eve
 * [Stockfish](https://stockfishchess.org) for labelling positions, and [python-chess](https://github.com/niklasf/python-chess) for the rules
 * [Jev-vs-Laya](https://github.com/aarush-dhingra/Jev-vs-Laya), which inspired the arena and the replay layout
 
-## License
+## License 
 
 This project uses python-chess, which is licensed under GPL-3.0. Check the licenses of Laya and CLM before redistributing fine-tuned weights.
