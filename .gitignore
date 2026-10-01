@@ -1,0 +1,15 @@
+.env
+__pycache__/
+*.safetensors
+*.pt
+embed_cache/
+runs/
+arena_runs/
+laya_chess_20k/
+laya_chess_1k/
+laya_smoke/
+*.mp4.part
+*.jsonl
+laya_chess_20k.zip/
+typed_decisions_predictions.csv
+laya_jev_test_env/

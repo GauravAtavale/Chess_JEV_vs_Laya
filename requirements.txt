@@ -1,0 +1,6 @@
+chess
+pygame
+laya
+imageio
+imageio-ffmpeg
+pyarrow
