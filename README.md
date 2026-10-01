@@ -10,7 +10,7 @@ Can a model that **doesn't search and doesn't generate text** play chess? This p
 
 | Fine-tuned CLM beats Jev | Jev checkmates untrained CLM | Untrained CLM vs a random player |
 |:---:|:---:|:---:|
-| [▶ jev_vs_clm_ft.mp4](laya-test/jev_vs_clm_ft.mp4) | [▶ jev_vs_clm_base.mp4](laya-test/jev_vs_clm_base.mp4) | [▶ clm_base_vs_random.mp4](laya-test/clm_base_vs_random.mp4) |
+| [▶ jev_vs_clm_ft.mp4]([laya-test/jev_vs_clm_ft.mp4](https://github.com/user-attachments/assets/7712b18f-8c0b-42b8-b494-3ed17a964377)) | [▶ jev_vs_clm_base.mp4](laya-test/jev_vs_clm_base.mp4) | [▶ clm_base_vs_random.mp4](laya-test/clm_base_vs_random.mp4) |
 
 <!-- To play the clips inline on GitHub: edit this README on github.com, drag each .mp4 into the editor,
      and replace the links above with the generated video URLs. -->
