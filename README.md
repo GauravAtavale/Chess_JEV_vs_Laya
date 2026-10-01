@@ -2,19 +2,17 @@
 
 Can a model that **doesn't search and doesn't generate text** play chess? This project pits three "System One" decision models against each other. Each one looks at a position, scores the legal moves, and picks one in a single pass, with no engine and no lookahead at play time.
 
-* **Jev** (TypeSafe): a hosted API, used zero-shot
-* **Laya**: an open ~400M-parameter model, fine-tuned here on Stockfish-labelled positions
-* **CLM-8B**: an open contrastive model (frozen Qwen3-8B + small heads), fine-tuned here the same way
+* **Jev (TypeSafe)**: a hosted API, used zero-shot
+* **Laya (Nandakishor ConvAI)**: an open ~400M-parameter model, fine-tuned here on Stockfish-labelled positions
+* **CLM-8B (Stanford / NVIDIA researchers)**: an open contrastive model (frozen Qwen3-8B + small heads), fine-tuned here the same way
 
-## Watch
+## Watch - Three games from the tournament.
 
-Three games from the tournament.
-
-### 1. Fine-tuned CLM checkmates Jev
+### 1. Fine-tuned CLM (open source) checkmates Jev
 
 **White:** Jev  ·  **Black:** CLM (fine-tuned)  ·  **Result:** 0–1, checkmate in 22 moves
 
-The headline result: after training only its two small heads on Stockfish-labelled positions, CLM beats the strongest zero-shot model.
+The headline result: after training only its two small heads, CLM 8B model beats the strongest zero-shot model.
 
 https://github.com/user-attachments/assets/9227c438-fd34-4f6b-ae35-2b2deed48afb
 
