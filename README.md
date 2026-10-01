@@ -8,14 +8,30 @@ Can a model that **doesn't search and doesn't generate text** play chess? This p
 
 ## Watch
 
-| Fine-tuned CLM beats Jev | Jev checkmates untrained CLM | Untrained CLM vs a random player |
-|:---:|:---:|:---:|
-| [▶ jev_vs_clm_ft.mp4]([laya-test/jev_vs_clm_ft.mp4](https://github.com/user-attachments/assets/7712b18f-8c0b-42b8-b494-3ed17a964377)) | [▶ jev_vs_clm_base.mp4](laya-test/jev_vs_clm_base.mp4) | [▶ clm_base_vs_random.mp4](laya-test/clm_base_vs_random.mp4) |
+| Fine-tuned CLM beats Jev | 
+
+https://github.com/user-attachments/assets/9227c438-fd34-4f6b-ae35-2b2deed48afb
+
+| Jev checkmates untrained CLM | 
+
+https://github.com/user-attachments/assets/22c34ef9-0e77-438c-9d06-02d6a6d4ba8a
+
+
+| Untrained CLM vs a random player |
+
+https://github.com/user-attachments/assets/1ca4308d-3012-4ec4-b5d6-1bed5efb8d6b
+
 
 <!-- To play the clips inline on GitHub: edit this README on github.com, drag each .mp4 into the editor,
      and replace the links above with the generated video URLs. -->
 
 ## TL;DR
+
+
+
+
+
+
 
 1. **Jev is by far the strongest zero-shot model.** It won 29 of 30 games against untrained opponents, all by checkmate.
 2. **Fine-tuning lifts small open models to Jev's level.** Fine-tuned CLM scored 65% against Jev; fine-tuned Laya scored 40%.
