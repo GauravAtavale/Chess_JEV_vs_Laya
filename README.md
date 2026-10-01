@@ -8,30 +8,36 @@ Can a model that **doesn't search and doesn't generate text** play chess? This p
 
 ## Watch
 
-| Fine-tuned CLM beats Jev | 
+Three games from the tournament.
+
+### 1. Fine-tuned CLM checkmates Jev
+
+**White:** Jev  ·  **Black:** CLM (fine-tuned)  ·  **Result:** 0–1, checkmate in 22 moves
+
+The headline result: after training only its two small heads on Stockfish-labelled positions, CLM beats the strongest zero-shot model.
 
 https://github.com/user-attachments/assets/9227c438-fd34-4f6b-ae35-2b2deed48afb
 
-| Jev checkmates untrained CLM | 
+### 2. Jev checkmates untrained CLM
+
+**White:** CLM (untrained)  ·  **Black:** Jev  ·  **Result:** 0–1, checkmate in 23 moves
+
+Jev plays real chess with no training at all. Against untrained models it won every game, all by checkmate.
 
 https://github.com/user-attachments/assets/22c34ef9-0e77-438c-9d06-02d6a6d4ba8a
 
+### 3. A random player checkmates untrained CLM
 
-| Untrained CLM vs a random player |
+**White:** CLM (untrained)  ·  **Black:** Random moves  ·  **Result:** 0–1, checkmate in 70 moves
+
+Untrained CLM is worse than random at chess: it scored 17% against a player choosing uniformly random legal moves.
 
 https://github.com/user-attachments/assets/1ca4308d-3012-4ec4-b5d6-1bed5efb8d6b
 
-
-<!-- To play the clips inline on GitHub: edit this README on github.com, drag each .mp4 into the editor,
-     and replace the links above with the generated video URLs. -->
+> **Replay them yourself:** `cd laya-test && python replay_game.py picked_games_jev_vs_clm_ft.pgn`
+> (also `picked_games_jev_vs_clm_base.pgn` and `picked_games_clm_base_v_random.pgn`). Space pauses; ← / → step through moves.
 
 ## TL;DR
-
-
-
-
-
-
 
 1. **Jev is by far the strongest zero-shot model.** It won 29 of 30 games against untrained opponents, all by checkmate.
 2. **Fine-tuning lifts small open models to Jev's level.** Fine-tuned CLM scored 65% against Jev; fine-tuned Laya scored 40%.
