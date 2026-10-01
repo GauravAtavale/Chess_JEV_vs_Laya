@@ -77,10 +77,12 @@ position + every legal move + rule facts  ──►  model  ──►  a score p
 Scores are from the **first-named** side's point of view (win = 1, draw = ½). "Unfinished" games reached the 300-half-move limit and are not counted in the score.
 
 
-<img width="1376" height="1056" alt="head_to_head" src="https://github.com/user-attachments/assets/284281ba-1e9c-4ef5-ae33-d6d539eb3416" />
+<img width="1376" height="1056" alt="head_to_head" src="https://github.com/user-attachments/assets/7e20cce3-6bc7-4fd1-a38f-54c5148cf402" />
 
-<img width="1600" height="896" alt="tournament_results" src="https://github.com/user-attachments/assets/17d2c741-444d-4a5e-bbe4-44d8ba5cac7f" />
+<img width="1600" height="896" alt="tournament_results" src="https://github.com/user-attachments/assets/49042a29-065e-4589-a8c4-63f40eeceb60" />
 
+
+<img width="1600" height="672" alt="move_quality" src="https://github.com/user-attachments/assets/e6b80073-d613-4db7-95b3-911aa344bd59" />
 
 
 
