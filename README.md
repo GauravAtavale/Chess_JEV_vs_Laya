@@ -72,7 +72,7 @@ position + every legal move + rule facts  ──►  model  ──►  a score p
 
 ## Results
 
-### Tournament (10 games per match)
+### Tournament (10 games per match) - adding visuals
 
 Scores are from the **first-named** side's point of view (win = 1, draw = ½). "Unfinished" games reached the 300-half-move limit and are not counted in the score.
 
